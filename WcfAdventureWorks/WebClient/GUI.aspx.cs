@@ -14,12 +14,12 @@ namespace WebClient
             try
             {
                 WcfServiceReference.IDatosClient dc = new WcfServiceReference.IDatosClient();
-                WcfServiceReference.Datos dt = dc.consultarData(tb_ID.Text.Trim());
-                if (dt.loginID != null)
+                WcfServiceReference.Datos dt = dc.ConsultarData(tb_ID.Text.Trim());
+                if (dt.LoginID != null)
                 {
-                    tb_Login.Text = dt.loginID;
-                    tb_JobTitle.Text = dt.jobTitle;
-                    tb_BirthDate.Text = dt.birthDate;
+                    tb_Login.Text = dt.LoginID;
+                    tb_JobTitle.Text = dt.JobTitle;
+                    tb_BirthDate.Text = dt.BirthDate;
                     tb_MaritalStatus.Text = dt.Maritalstatus;
                     tb_Gender.Text = dt.Gender;
                     lbl_Salida.Text = "<>";

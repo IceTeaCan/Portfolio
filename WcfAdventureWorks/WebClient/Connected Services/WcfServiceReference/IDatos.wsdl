@@ -7,22 +7,22 @@
       <xsd:import schemaLocation="http://localhost:60729/IDatos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WcfService" />
     </xsd:schema>
   </wsdl:types>
-  <wsdl:message name="IIDatos_consultarData_InputMessage">
-    <wsdl:part name="parameters" element="tns:consultarData" />
+  <wsdl:message name="IIDatos_ConsultarData_InputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarData" />
   </wsdl:message>
-  <wsdl:message name="IIDatos_consultarData_OutputMessage">
-    <wsdl:part name="parameters" element="tns:consultarDataResponse" />
+  <wsdl:message name="IIDatos_ConsultarData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ConsultarDataResponse" />
   </wsdl:message>
   <wsdl:portType name="IIDatos">
-    <wsdl:operation name="consultarData">
-      <wsdl:input wsaw:Action="http://tempuri.org/IIDatos/consultarData" message="tns:IIDatos_consultarData_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/IIDatos/consultarDataResponse" message="tns:IIDatos_consultarData_OutputMessage" />
+    <wsdl:operation name="ConsultarData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIDatos/ConsultarData" message="tns:IIDatos_ConsultarData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIDatos/ConsultarDataResponse" message="tns:IIDatos_ConsultarData_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_IIDatos" type="tns:IIDatos">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
-    <wsdl:operation name="consultarData">
-      <soap:operation soapAction="http://tempuri.org/IIDatos/consultarData" style="document" />
+    <wsdl:operation name="ConsultarData">
+      <soap:operation soapAction="http://tempuri.org/IIDatos/ConsultarData" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

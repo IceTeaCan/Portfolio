@@ -12,7 +12,7 @@ namespace WcfService
     public interface IIDatos
     {
         [OperationContract]
-        Datos consultarData(string ID);              
+        Datos ConsultarData(string ID);              
     }
 
     [DataContract]
@@ -22,13 +22,13 @@ namespace WcfService
         public string ID { get; set; }
 
         [DataMember]
-        public string loginID { get; set; }
+        public string LoginID { get; set; }
 
         [DataMember]
-        public string jobTitle { get; set; }
+        public string JobTitle { get; set; }
 
         [DataMember]
-        public string birthDate { get; set; }
+        public string BirthDate { get; set; }
 
         [DataMember]
         public string Maritalstatus { get; set; }

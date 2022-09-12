@@ -1,0 +1,10 @@
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\bin\WcfService.dll.config
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\bin\WcfService.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\bin\WcfService.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\bin\BaseData.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\bin\BaseData.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\obj\Debug\WcfService.csprojAssemblyReference.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\obj\Debug\WcfService.csproj.CopyComplete
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\obj\Debug\WcfService.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\WcfService\obj\Debug\WcfService.pdb

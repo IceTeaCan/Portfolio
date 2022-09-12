@@ -12,15 +12,15 @@ namespace WcfService
     // NOTA: para iniciar el Cliente de prueba WCF para probar este servicio, seleccione IDatos.svc o IDatos.svc.cs en el Explorador de soluciones e inicie la depuración.
     public class IDatos : IIDatos
     {
-        public Datos consultarData(string ID)
+        public Datos ConsultarData(string ID)
         {
             AccesoDatos json = new AccesoDatos();
             Datos dt = new Datos();
             try
             {
-                dt.loginID = json.Consulta(ID).Rows[0]["LoginID"].ToString();
-                dt.jobTitle = json.Consulta(ID).Rows[0]["JobTitle"].ToString();
-                dt.birthDate = json.Consulta(ID).Rows[0]["BirthDate"].ToString();
+                dt.LoginID = json.Consulta(ID).Rows[0]["LoginID"].ToString();
+                dt.JobTitle = json.Consulta(ID).Rows[0]["JobTitle"].ToString();
+                dt.BirthDate = json.Consulta(ID).Rows[0]["BirthDate"].ToString();
                 dt.Maritalstatus = json.Consulta(ID).Rows[0]["MaritalStatus"].ToString();
                 dt.Gender = json.Consulta(ID).Rows[0]["Gender"].ToString();
                 return dt;

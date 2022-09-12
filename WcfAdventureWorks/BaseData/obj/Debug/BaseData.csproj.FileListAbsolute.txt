@@ -1,0 +1,6 @@
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\bin\Debug\BaseData.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\bin\Debug\BaseData.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\obj\Debug\BaseData.csprojAssemblyReference.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\obj\Debug\BaseData.csproj.CoreCompileInputs.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\obj\Debug\BaseData.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\WcfAdventureWorks\BaseData\obj\Debug\BaseData.pdb
