@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encription", "Encription.csproj", "{CEAEA955-6B54-4F60-97B2-61DDCE4BD0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncriptProcess", "..\EncriptProcess\EncriptProcess.csproj", "{FE5D1239-F2CC-467B-96EB-039E9E9AC031}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEAEA955-6B54-4F60-97B2-61DDCE4BD0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEAEA955-6B54-4F60-97B2-61DDCE4BD0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEAEA955-6B54-4F60-97B2-61DDCE4BD0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEAEA955-6B54-4F60-97B2-61DDCE4BD0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5D1239-F2CC-467B-96EB-039E9E9AC031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5D1239-F2CC-467B-96EB-039E9E9AC031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5D1239-F2CC-467B-96EB-039E9E9AC031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5D1239-F2CC-467B-96EB-039E9E9AC031}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BEE7696-4D6F-4E27-9D0B-614F905FE836}
+	EndGlobalSection
+EndGlobal
