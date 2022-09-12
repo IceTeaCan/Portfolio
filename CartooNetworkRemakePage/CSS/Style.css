@@ -1,0 +1,341 @@
+*
+{
+    src: url('/Content/');
+    color: white;
+    font-family: trebuchet MS;
+}
+
+body
+{
+    background-color: #2e2e2e;
+}
+
+header
+{
+    background-color: rgb(0, 0, 0);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+}
+
+a img:hover
+{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: gold;
+    padding-bottom: 3px;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+header img, header nav
+{
+    display: inline-block;
+} 
+
+header nav
+{
+    vertical-align: top;
+}
+
+header nav ul li 
+{
+    text-align: left;
+    margin-left: 15px;
+    display: inline-block;
+    font-size: 2.1em;
+}
+
+header nav ul li a img
+{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    margin-left: 15px;
+    -moz-box-shadow: 0px 0px 10px 5px white;
+    -webkit-box-shadow: 0px 0px 10px 5px white;
+    box-shadow: 0px 0px 10px 5px white;
+}
+
+header img
+{
+    width: 250px;
+    height: 110px;
+    margin: 20px 50% 10px 10%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;   
+}
+
+#body_content_video
+{
+    margin-top: 180px;
+    padding: 0px 0px 5px 0px;
+    background: url('/Content/Cartoon\ Network\ x\ Smash\ _\ Super\ Smash\ Brothers\ Ultimate.jfif') no-repeat center;
+    background-size:cover;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-color: black;
+    -moz-box-shadow: 0px 5px 8px #1c1a19;
+    -webkit-box-shadow: 0px 5px 8px #1c1a19;
+    box-shadow: 0px 5px 8px #1c1a19;
+}
+
+#body_content_video p iframe
+{
+    background-color: black;
+    margin: 0px 0px 50px 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    -moz-box-shadow: 0px 12px 15px #1c1a19;
+    -webkit-box-shadow: 0px 12px 15px #1c1a19;
+    box-shadow: 0px 12px 15px #1c1a19;
+}
+
+#body_content_video h1
+{
+    font-size: 5.1em;
+    background-color: #000000;
+    padding: 10px 0px 10px 30px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#body_content_video p, #body_content_Youtube
+{
+    display: inline-block;
+}
+
+#body_content_Youtube 
+{
+    width: 22%;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 17px;
+    background-color: rgb(49, 46, 46);
+    vertical-align: top;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
+    -webkit-box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
+    box-shadow: 0px 0px 8px 8px rgb(0, 0, 0);
+}
+
+#body_content_Youtube h1
+{
+    width: 90%;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('/Content/youtube.jpg')no-repeat center;
+    background-size: cover;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 3px 4px 8px 2px rgb(216, 5, 5);
+    -webkit-box-shadow: 3px 4px 8px 2px rgb(216, 5, 5);
+    box-shadow: 3px 4px 8px 2px rgb(216, 5, 5);
+}
+
+#body_content_Youtube ul li 
+{
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+#body_content_Youtube ul li a img
+{
+    width: 180px;
+}
+
+#body_content
+{
+    margin-top: 80px;
+}
+
+#body_content h1
+{
+    font-size: 5.1em;
+    background-color: #000000;
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#main_visual
+{
+    width: 99.7%;
+    height: 1120px;
+    background: url("../Content/Welcome_back_mainDrop.jpg") no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: 0px 0px 8px 5px #000000;
+    -webkit-box-shadow: 0px 0px 8px 5px #000000;
+    box-shadow: 0px 0px 8px 5px #000000;
+}
+
+#main_visual ul
+{
+    margin-left: 5%;
+}
+
+#main_visual ul li
+{
+    font-size: 1.8em;
+    color: greenyellow;
+    display: inline-block;
+    margin: 20px 150px 25px 150px;
+    background-color: #1c1a19;
+    padding: 5px;
+    -moz-box-shadow: 0px 0px 8px 5px #000000;
+    -webkit-box-shadow: 0px 0px 8px 5px #000000;
+    box-shadow: 0px 0px 8px 5px #000000;
+    text-align: center;
+}
+
+#margin_visual ul li a
+{
+    display:table-column;
+}
+
+div#lower_body_fanart
+{
+    background: url('/Content/fanartback.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;  
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;  
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+#lower_body_fanart h1
+{
+    font-size: 5.1em;
+    background-color: #000000;
+    padding: 10px 0px 10px 30px;
+    margin-bottom: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#lower_body_fanart ul,p
+{
+    display: inline-block;
+}
+
+#lower_body_fanart ul
+{
+    width: 58%;
+}
+
+#lower_body_fanart ul li
+{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#lower_body_fanart #contact_fanart
+{
+    width: 38%;
+    height: 600px;
+    vertical-align: top;
+    background-color: #1c1a19;
+    margin: 40px 15px 0px 15px;
+    padding: 10px;
+    float: right;
+    font-size: 1.8em;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#lower_body_fanart #contact_fanart h1
+{
+    width: 90%;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('/Content/fanartbanner.jpg') no-repeat;
+    background-position: center;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 10px 8px #346ff8;
+    -webkit-box-shadow: 0px 0px 10px 8px #346ff8;
+    box-shadow: 0px 0px 10px 8px #346ff8;
+}
+
+
+#lower_body_fanart #contact_fanart p 
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #346ff8;
+    font-weight: bold;
+}
+
+#lower_body_fanart #contact_fanart img
+
+{
+    display: inline-block;
+}
+
+footer
+{
+    text-align: center;
+}
+
+footer section p,img
+{
+    display: inline-block;
+}
+
+footer section img
+{
+    margin-left: 30px;
+    width: 90px;
+    height: 60px;
+}
+
+footer ul li
+{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+}
+
+.ir-arriba 
+{
+	cursor:pointer;
+}
