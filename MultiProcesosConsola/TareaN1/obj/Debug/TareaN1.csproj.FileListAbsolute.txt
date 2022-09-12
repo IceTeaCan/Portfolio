@@ -1,0 +1,14 @@
+C:\Users\micke\source\repos\TareaN1\TareaN1\bin\Debug\TareaN1.exe.config
+C:\Users\micke\source\repos\TareaN1\TareaN1\bin\Debug\TareaN1.exe
+C:\Users\micke\source\repos\TareaN1\TareaN1\bin\Debug\TareaN1.pdb
+C:\Users\micke\source\repos\TareaN1\TareaN1\obj\Debug\TareaN1.csprojAssemblyReference.cache
+C:\Users\micke\source\repos\TareaN1\TareaN1\obj\Debug\TareaN1.csproj.CoreCompileInputs.cache
+C:\Users\micke\source\repos\TareaN1\TareaN1\obj\Debug\TareaN1.exe
+C:\Users\micke\source\repos\TareaN1\TareaN1\obj\Debug\TareaN1.pdb
+C:\VS2017\TareaN1\TareaN1\bin\Debug\TareaN1.exe.config
+C:\VS2017\TareaN1\TareaN1\bin\Debug\TareaN1.exe
+C:\VS2017\TareaN1\TareaN1\bin\Debug\TareaN1.pdb
+C:\VS2017\TareaN1\TareaN1\obj\Debug\TareaN1.csprojAssemblyReference.cache
+C:\VS2017\TareaN1\TareaN1\obj\Debug\TareaN1.csproj.CoreCompileInputs.cache
+C:\VS2017\TareaN1\TareaN1\obj\Debug\TareaN1.exe
+C:\VS2017\TareaN1\TareaN1\obj\Debug\TareaN1.pdb
