@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Index", "Index\Index.csproj", "{F823C92C-21A5-44E3-BC7F-EDC3AA742682}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C4D48BF-53B0-4849-B831-653838DAFDA6} = {8C4D48BF-53B0-4849-B831-653838DAFDA6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebTikiService", "WebTikiService\WebTikiService.csproj", "{8C4D48BF-53B0-4849-B831-653838DAFDA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F823C92C-21A5-44E3-BC7F-EDC3AA742682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F823C92C-21A5-44E3-BC7F-EDC3AA742682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F823C92C-21A5-44E3-BC7F-EDC3AA742682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F823C92C-21A5-44E3-BC7F-EDC3AA742682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4D48BF-53B0-4849-B831-653838DAFDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4D48BF-53B0-4849-B831-653838DAFDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4D48BF-53B0-4849-B831-653838DAFDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4D48BF-53B0-4849-B831-653838DAFDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B6E3399-27F6-4D0C-A1B3-EBE34C1E0B04}
+	EndGlobalSection
+EndGlobal
