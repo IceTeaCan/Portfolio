@@ -1,0 +1,445 @@
+
+body{
+    background-color: black;
+    margin: 0px;
+}
+/*Cabecera de página*/
+header{
+    width: 100%;
+    height: 5.5vw;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background: url('/Content/wood-background-72.jpg');
+    color: black;
+    top: 5px;
+    position: fixed;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 10px 5px #af6300;
+    -webkit-box-shadow: 0px 0px 10px 5px #af6300;
+    box-shadow: 0px 0px 10px 5px #af6300;
+}
+
+header img, header nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+header img#main_logo{
+    height: inherit;   
+    margin-left: 14.5%;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+header img#flag_logo_left{
+    height: inherit;
+    margin: 0% 2vw 0% 0%;
+    -moz-box-shadow: 0px 0px 5px 2px white;
+    -webkit-box-shadow: 0px 0px 5px 2px white;
+    box-shadow: 0px 0px 5px 2px white;
+}
+
+header nav#menu ul li{
+    display: inline-block;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+header nav#menu ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: rgb(255, 245, 203);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    color: rgb(105, 105, 105);
+    -moz-box-shadow: 0px 0px 10px 5px black;
+    -webkit-box-shadow: 0px 0px 5px 5px black;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+header nav#menu ul li:hover{
+    color: rgb(179, 41, 41);
+    font-weight: bolder;
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+header nav#social{
+    float: right;
+}
+
+header nav#social ul, header nav#social img#flag_logo_right{
+    display: inline-block;
+}
+
+header nav#social img#flag_logo_right{
+    height: 5.5vw;
+    margin-left: 8vw;
+    margin-right: 0px;
+    -moz-box-shadow: 0px 0px 5px 2px white;
+    -webkit-box-shadow: 0px 0px 5px 2px white;
+    box-shadow: 0px 0px 5px 2px white;
+}
+
+header nav#social ul li {
+    display: inline-block;
+}
+
+
+header nav#social ul li a img#standar{
+    width: 50px;  
+    height: 50px;
+    margin-left: 15px;  
+}
+
+img#youtube_logo{
+    width: 70px;
+    height: 40px;
+    margin-left: 10px; 
+}
+
+header nav#social ul li a img:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+#ir_abajo{
+    cursor: pointer;
+}
+
+/*Cuerpo de página*/
+
+div.backstay{
+    margin-top: 6vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('/Content/FONDO-banner-hojas.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+div.backstay iframe{
+    -moz-box-shadow: 0px 0px 10px 5px black;
+    -webkit-box-shadow: 0px 0px 10px 5px black;
+    box-shadow: 0px 0px 10px 5px black;
+}
+div.history {
+    background: url('/Content/tienda-banner.jpg');
+    font-size: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 20vw;
+    width: 100%;
+    color: white;
+}
+
+div.history section{
+    margin-right: 1.5%;
+    margin-top: 0.5%;
+    float: right;
+    width: 40%;
+    text-align: justify;
+}
+
+div.hist-backstay{
+    margin-top: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('/Content/FONDO-banner-hojas.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 35vw;
+    margin-bottom: 2vw;
+    font-size: 20px;
+
+}
+
+div.hist-backstay section#hist_sec img#eco_salq_logo{
+    float: right;
+    margin-right: 12vw;
+    margin-top: 7vw;
+}
+
+div.hist-backstay section#hist_sec p{
+    padding: 10px;
+    font-family:"Raleway",sans-serif;
+    font-size: 35px;
+    border-radius: 5px;
+    text-align: justify;
+    font-weight:bold;
+    margin-left: 3%;
+    margin-top: 4vw;
+    width: 48%;    
+}
+
+div.bottom_hist{
+    text-align: center;
+    color: white;
+}
+
+div.bottom_hist div.mision,div.bottom_hist div.vision{
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+div.bottom_hist div.mision img,div.bottom_hist div.vision img{
+    width: 400px;
+}
+
+div.bottom_hist div.mision {
+    width: 35%;
+    margin-right: 5%;
+    font-size: 1.5em;
+}
+
+div.bottom_hist div.vision {
+    width: 35%;
+    font-size: 1.4em;
+}
+
+footer{
+    width: 100%;
+    height: 35vw;
+    background-color: #4B71FC;
+    font-size: 1.5em;
+}
+
+footer div.contact_info,footer div.contact_form{
+    display: inline-block;
+}
+
+footer div.contact_info{
+    font-size: 1.2em;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+footer div.contact_form{
+    background-color: rgba(255, 255, 255, 0.637);
+    padding: 10px;
+    width:30%;
+    margin-left: 10%;
+    margin-top: 6.5vw;
+    vertical-align: top;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 0px 10px 5px black;
+    -webkit-box-shadow: 0px 0px 10px 5px black;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+footer div.contact_form section#contact_formulario{
+    text-align: center;    
+}
+
+form input::placeholder{
+    font-size: 1em;
+}
+
+form textarea::placeholder{
+    font-size: 1em;
+}
+
+form input.form_element{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #FFFFFF;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border-radius: 11px 11px 11px 11px;
+}
+
+form textarea{
+    margin-top: 7px;
+}
+
+form input.form_button{    
+    color: white;
+    font-size: 1em;
+    width: 400px;
+    background-color: rgb(0, 0, 0);
+    border-color: #FFFFFF;
+    border-radius: 11px 11px 11px 11px;
+}
+
+form textarea{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    border-color: #FFFFFF;
+    border-radius: 11px 11px 11px 11px;
+}
+
+footer div.foot{
+    padding: 5px;
+    background-color: black;
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+    bottom: 0px;
+}
+
+/*Pagina producto*/
+div.prod_upper{
+    font-family:"Raleway",sans-serif;
+    font-size: 25px;
+    width: 100%;
+    color: white;
+    margin-top: 7vw;
+    padding-bottom: 3vw;
+    text-align: center;
+    color: black;
+}
+
+
+
+div.prod_upper img#rece_chori{
+    width: 300px;
+    float: left;
+    vertical-align: top;
+    margin-top: 6.5vw;
+    margin-left: 3vw;
+    background-color: white;
+    -moz-box-shadow: 0px 0px 10px 7px white;
+    -webkit-box-shadow: 0px 0px 10px 7px white;
+    box-shadow: 0px 0px 10px 7px white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.prod_upper a img#rece_salch{
+    width: 300px;
+    float: right;    
+    vertical-align: top;
+    margin-top: 6.5vw;
+    margin-right: 3vw;
+    background-color: white;
+    -moz-box-shadow: 0px 0px 10px 7px white;
+    -webkit-box-shadow: 0px 0px 10px 7px white;
+    box-shadow: 0px 0px 10px 7px white;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.prod_upper a img:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    transform:scale(1.25);
+}
+
+div.prod_upper video{
+    margin-top: 2vw;
+    width: 1080px;
+}
+
+div.prod_upper section{
+    background:url('/Content/con_salqui_banner.png') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.prod_shelf{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family:"Raleway",sans-serif;
+    font-size: 25px;
+    background-color: rgb(212, 212, 212);
+}
+
+div.prod_shelf nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.prod_shelf nav ul li{
+    display: inline-block;
+    background-color: gray;
+    margin-left: 5vw ;
+    margin-bottom: 5vw;
+    padding: 10px;
+    -moz-box-shadow: 0px 0px 10px 7px black;
+    -webkit-box-shadow: 0px 0px 10px 7px black;
+    box-shadow: 0px 0px 10px 7px black;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+}
+
+div.prod_shelf nav ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: gold;
+    padding-bottom: 3px;
+}
+
+div.prod_shelf nav ul li a:hover{
+    color: red;
+}
+
+div.prod_mid {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-family:"Raleway",sans-serif;
+    font-size: 50px;
+    background:url('/Content/sal_parrillada.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+div.prod_mid section p{
+    color: gray;
+    background-color: white;
+    width: 80%;
+    -moz-box-shadow: 0px 0px 10px 7px white;
+    -webkit-box-shadow: 5px 5px 10px 7px white;
+    box-shadow: 5px 5px 10px 7px gray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2vw;
+    margin-left: 10%;
+}
+
+div.prod_mid section h1{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    width: 80%;
+    -moz-box-shadow: 0px 0px 10px 7px white;
+    -webkit-box-shadow: 5px 5px 10px 7px white;
+    box-shadow: 5px 5px 10px 7px gray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2vw;
+    margin-left: 10%;
+}

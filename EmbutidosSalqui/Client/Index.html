@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/CSS/csstyle.css">
+        <title>Industrias Salqui</title>
+    </head>
+    <body>
+        <script language = "javascript">
+            function mailpage()
+            {
+                mail_str = "mailto:JonathanSalazar@IndustriasSalqui.com?subject=Correo de contacto"
+                +document.title;
+                mail_str += "&body= Favor colocar nombre, apellidos, asunto y firma asi como forma de contacto"
+                +document.title;
+                mail_str += ". Enlace: "+location.href;
+                location.href = mail_str;
+            }
+        </script>
+        <header>
+            <img id="flag_logo_left" src="/Content/main-logo-small.jpg"  alt="Web-Logo-IndSalqui" />
+            <img id="main_logo" src="/Content/logo-web-salqui.jpg"  alt="Main-Logo-IndSalqui" />
+            <nav id="menu">
+                <ul>
+                    <li><a href="/Client/Index.html">Inicio</a></li>
+                    <li><a href="https://www.salqui.com/catalogo/mobile/index.html#p=1">Catálogo</a></li>
+                    <li><a href="/Client/Product.html">productos</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </nav>
+            <nav id="social">
+                <ul>
+                    <li><a href="https://www.facebook.com/EmbutidosSalqui/"><img id="standar" src="/Content/face.png" alt="facebook-link"></a></li>
+                    <li><a href="https://www.instagram.com/embutidos_salqui/?hl=es"><img id="standar" src="/Content/insta.png" alt="instagram-link"></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=wo3Wgtdk39w"><img id="youtube_logo" src="/Content/youtube.png" alt="youtube-link"></a></li>
+                </ul>
+                <img id="flag_logo_right" src="/Content/main-logo-small.jpg"  alt="Web-Logo-IndSalqui" />
+            </nav>
+        </header>
+        <div class="backstay">
+            <iframe width="1693" height="722" src="https://www.youtube.com/embed/wo3Wgtdk39w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>  
+        <div class="history">
+            <section>
+                <p>
+                    Industrias Salqui de Cartago (Embutidos Don Luis), es una empresa con origen y sostenibilidad familiar, que nace como una necesidad laboral del socio, fundador cuyo nombre y logo representa al padre de los accionistas. <br><br>
+
+                    Su inicio se produce en La Pitahaya de Cartago, y con el crecimiento se traslada a San Nicolas Ochomogo. <br><br>
+                    
+                    La alta calidad de sus productos, la creciente demanda y la confianza generada en los clientes, hizo que este traslado a instalaciones propias más amplias en 1991, donde actualmente se ubica, fuera necesario y consecuente. <br><br>
+                    
+                    Hoy día, con más de 25 años en la actividad. Industrias Salqui de Cartago busca brindar a sus clientes productos de alta calidad. Queriendo mantener un crecimiento en su actividad.</p>
+            </section>
+        </div>
+        <div class="hist-backstay">
+            <section id="hist_sec">
+                <img id="eco_salq_logo" src="/Content/eco-logo.png"  alt="eco_logo" />
+                <p>En SALQUI estamos comprometidos con el Medio Ambiente, es por ello que hemos creado El Programa CULTURA SALQUI como estilo y forma de producción, el cual se fundamenta en cinco pilares: <br><br>
+                    ● Producción más Limpia<br>
+                    ● Reducción, recuperación y reciclado de residuos valorables<br>
+                    ● Uso eficiente del Agua<br>
+                    ● Eficiencia en el Gastos de energéticos<br>
+                    ● Armonía laboral con seguridad laboral</p>
+            </section>
+        </div>
+        <div class="bottom_hist">
+            <div class="mision">
+                <h1>Misión</h1>
+                <p>
+                    Hacer de nuestra compañía, una empresa ecoeficiente, que se establezca y permanezca en el mercado como líder en excelencia, en calidad, tecnología innovadora en todos nuestros procesos, con productos altamente diferenciados, y esforzándonos día a día en obtener la confianza de nuestros clientes. <br><br>
+                </p>
+                <img id="planta1" src="/Content/plantasalqui1.jpg"  alt="planta_img" />
+            </div>
+            <div class="vision">
+                <h1>Visión</h1>
+                <p>
+                    Ofrecer a nuestros clientes embutidos y productos afines seguros, inocuos y de excelente calidad; productos de forma amigable con el ambiente, con precios en relación con la calidad, logrando de esta manera en forma proporcional la retribución y satisfacción de nuestros clientes, proveedores, colaboradores y accionistas como resultado de su aporte.
+                </p>
+                <img id="planta2" src="/Content/plantasalqui2.jpg"  alt="planta2_img" />
+            </div>
+        </div>
+        <footer>
+            <div class="contact_info">
+                <h1>CONTÁCTENOS</h1>
+                <p>
+                    ESTAMOS PARA SERVIRLE <br>                   
+                    2537-2885 <br>
+                    Despacho: <br>
+                    Contiguo a la estación de pesaje, Ochomogo, Autopista Florencio del Castillo Cartago.<br><br>
+
+                    Nuevo CEDI:<br>
+                    Diagonal al Restaurante el Quijongo, Tejar, El Guarco, Cartago.<br>
+                </p>
+
+            </div>
+            <div class="contact_form">
+                <section id="contact_formulario">
+                    <p>Envianos un correo <a href="javascript:mailpage()">aquí!</a> o por medio de</p>
+                    <h1>Formulario de contacto</h1>
+                    <p>
+                        <form>
+                            <input class="form_element" id="contact_me" placeholder="Nombre" size="50"><br/>
+                            <input class="form_element" type="email" id="contact_email" placeholder="Email" size="50"><br/>
+                            <input class="form_element" id="contact_phone" placeholder="Teléfono" size="50"><br/>
+                            <textarea class="form_element" id="contact_message" placeholder="Mensaje" rows="4" ></textarea><br>
+                            <input class="form_button" type="submit" ="" value="Enviar">
+                        </form>
+                    </p>
+                </section>
+            </div>
+            <div class="foot">
+                <h1>Embutidos Don Luis, SALQUI - &copy; 2021</h1>
+            </div>
+        </footer>
+    </body>
+</html>

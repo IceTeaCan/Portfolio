@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos Salqui</title>
+    <link rel="stylesheet" href="/CSS/csstyle.css">
+    <link rel="stylesheet" href="/JS/JavaScripts.js">
+</head>
+<body>
+    <script language = "javascript">
+        function mailpage()
+        {
+            mail_str = "mailto:JonathanSalazar@IndustriasSalqui.com?subject=Correo de contacto"
+            +document.title;
+            mail_str += "&body= Favor colocar nombre, apellidos, asunto y firma asi como forma de contacto"
+            +document.title;
+            mail_str += ". Enlace: "+location.href;
+            location.href = mail_str;
+        }
+    </script>
+    <header>
+        <img id="flag_logo_left" src="/Content/main-logo-small.jpg"  alt="Web-Logo-IndSalqui" />
+        <img id="main_logo" src="/Content/logo-web-salqui.jpg"  alt="Main-Logo-IndSalqui" />
+        <nav id="menu">
+            <ul>
+                <li><a href="/Client/Index.html">Inicio</a></li>
+                <li><a href="https://www.salqui.com/catalogo/mobile/index.html#p=1">Catálogo</a></li>
+                <li><a href="/Client/Product.html">productos</a></li>
+                <li><a href="" onclick="scrollToBottom()">Contacto</a></li>
+            </ul>
+        </nav>
+        <nav id="social">
+            <ul>
+                <li><a href="https://www.facebook.com/EmbutidosSalqui/"><img id="standar" src="/Content/face.png" alt="facebook-link"></a></li>
+                <li><a href="https://www.instagram.com/embutidos_salqui/?hl=es"><img id="standar" src="/Content/insta.png" alt="instagram-link"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=wo3Wgtdk39w"><img id="youtube_logo" src="/Content/youtube.png" alt="youtube-link"></a></li>
+            </ul>
+            <img id="flag_logo_right" src="/Content/main-logo-small.jpg"  alt="Web-Logo-IndSalqui" />
+        </nav>
+    </header>
+    <div class="prod_upper">
+        <a href="https://www.facebook.com/EmbutidosSalqui/photos/a.482682971812144/4334739719939764/"><img id="rece_chori" src="/Content/publi_rece_chor.jpg"  alt="publi_receta_chori" /></a>
+        <a href="https://www.facebook.com/EmbutidosSalqui/photos/a.482682971812144/4427037684043300/"><img id="rece_salch" src="/Content/publi_rece.jpg"  alt="publi_receta" /></a>
+        <video src="/Content/product_video.mp4" autoplay loop muted>        
+    </div>
+    <div class="prod_shelf">
+        <nav>
+            <ul>
+                <li><img src="/Content/salchichones-categorias-300x300.jpg" alt="cat_salch"><br><br>Salchichones<br><br><a href="https://www.salqui.com/categoria-producto/salchichones/">Ver más</a></li>
+                <li><img src="/Content/mortadela_prod.jpg" alt="cat_mort"><br><br>Mortadelas<br><br><a href="https://www.salqui.com/categoria-producto/mortadelas/">Ver más</a></li>
+                <li><img src="/Content/jamones-categorias-300x300.jpg" alt="cat_jam"><br><br>Jamones<br><br><a href="https://www.salqui.com/categoria-producto/jamones/">Ver más</a></li>
+                <li><img src="/Content/chorizos-categorias-300x300.jpg" alt="cat_chor"><br><br>Chorizos<br><br><a href="https://www.salqui.com/categoria-producto/chorizos/">Ver más</a></li>
+                <li><img src="/Content/salchichas-categorias-300x300.jpg" alt="cat_salch"><br><br>Salchichas<br><br><a href="https://www.salqui.com/categoria-producto/salchichas/">Ver más</a></li>
+                <li><img src="/Content/ahumados-categorias-300x300.jpg" alt="cat_ahum"><br><br>Ahumados<br><br><a href="https://www.salqui.com/categoria-producto/ahumados/">Ver más</a></li>
+                <li><img src="/Content/carnes-crudas-categorias-300x300.jpg" alt="cat_car_crud"><br><br>Carnes Crudas<br><br><a href="https://www.salqui.com/categoria-producto/carnes-crudas/">Ver más</a></li>
+                <li><img src="/Content/pates-categorias-300x300.jpg" alt="cat_pates"><br><br>Pates<br><br><a href="https://www.salqui.com/categoria-producto/pates/">Ver más</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="prod_mid">
+        <section>
+            <p>
+                “Desde platillos elaborados como una Paella hasta el Sandwich para la merienda. Desde deliciosas parrilladas en familia o amigos hasta el almuercito de la semana. Desde una deliciosa pizza hasta unos gallitos de salchichón con cafecito”.
+            </p>
+            <h1>NO HAY LÍMITES PARA SU CREATIVAD EN LA COCINA CON PRODUCTOS SALQUI PARA CADA NECESIDAD.</h1>
+        </section>
+    </div>
+    <footer>
+        <div class="contact_info">
+            <h1>CONTÁCTENOS</h1>
+            <p>
+                ESTAMOS PARA SERVIRLE <br>                   
+                2537-2885 <br>
+                Despacho: <br>
+                Contiguo a la estación de pesaje, Ochomogo, Autopista Florencio del Castillo Cartago.<br><br>
+
+                Nuevo CEDI:<br>
+                Diagonal al Restaurante el Quijongo, Tejar, El Guarco, Cartago.<br>
+            </p>
+
+        </div>
+        <div class="contact_form">
+            <section id="contact_formulario">
+                <p>Envianos un correo <a href="javascript:mailpage()">aquí!</a> o por medio de</p>
+                <h1>Formulario de contacto</h1>
+                <p>
+                    <form>
+                        <input class="form_element" id="contact_me" placeholder="Nombre" size="50"><br/>
+                        <input class="form_element" type="email" id="contact_email" placeholder="Email" size="50"><br/>
+                        <input class="form_element" id="contact_phone" placeholder="Teléfono" size="50"><br/>
+                        <textarea class="form_element" id="contact_message" placeholder="Mensaje" rows="4" ></textarea><br>
+                        <input class="form_button" type="submit" value="Enviar">
+                    </form>
+                </p>
+            </section>
+        </div>
+        <div class="foot">
+            <h1>Embutidos Don Luis, SALQUI - &copy; 2021</h1>
+        </div>
+    </footer>
+</body>
+</html>
