@@ -1,0 +1,74 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Index.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="color:white"><%: Page.Title %> - Cuando el hambre ataca tiki te rescata</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/Content/flame-32.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body style="background-image:url('/Content/74416-costa-rica.jpg'); background-size:cover;">       
+    <form runat="server" style="margin-top: 28px;">
+         <asp:ContentPlaceHolder ID="ContentMenu" runat="server">
+        <div class="jumbotron" style="float:right; height: 9px; width: 266px; padding-top:40px">
+                </div>
+        </asp:ContentPlaceHolder>  
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top" style="padding-top:15px; background-color:black; height: 88px;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar">&nbsp;</span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/" style="font-size:40px;padding-top:30px;float:left;color:white;font-family:'Gill Sans MT'; width: 851px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TikiFood</a>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+                <div class="navbar-collapse collapse" style="padding-top:5px">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/"><img src="/Content/Home.png" alt="Inicio" style="width:40px;height:40px;"></a></li>
+                        <li><a runat="server" href="~/Contact"><img src="/Content/FoodIcon1.jpg" alt="Inicio" style="width:40px;height:40px;"></a></li>
+                        <li><a runat="server" href="~/About"><img src="/Content/ShopCart.png" alt="Inicio" style="width:40px;height:40px;" onclick="ProdShop_Click"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>        
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer style="background-color:black;color:white;padding:10px; width: 786px;">
+                <p>&copy; <%: DateTime.Now.Year %> - Derechos reservados por TikiFood.S.A Company </p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
