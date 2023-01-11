@@ -46,6 +46,7 @@
     <Compile Include="ArrToPhone.cs" />
     <Compile Include="Compare2Arrays.cs" />
     <Compile Include="CompareString.cs" />
+    <Compile Include="CountIPAddresses.cs" />
     <Compile Include="FaceLikes.cs" />
     <Compile Include="FindTheOutlier.cs" />
     <Compile Include="FiveLetters.cs" />
