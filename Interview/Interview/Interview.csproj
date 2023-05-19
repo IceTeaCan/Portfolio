@@ -60,6 +60,7 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="SecondCalc.cs" />
     <Compile Include="StringManipulation.cs" />
+    <Compile Include="TwoStringsSum.cs" />
     <Compile Include="VerifyBraces.cs" />
   </ItemGroup>
   <ItemGroup>

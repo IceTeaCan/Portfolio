@@ -24,7 +24,9 @@ namespace Interview
                 "13.Write a function that takes a string of braces, and determines if the order of the braces is valid. It should return true if the string is valid, and false if it's invalid.\n" +
                 "14.Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed \n" +
                 "15.Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.\n" +
-                "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n");
+                "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n" +
+                "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
+                "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -204,6 +206,12 @@ namespace Interview
                     Console.WriteLine(CountIPAddresses.IpsBetween("10.0.0.0", "10.0.0.50"));
                     Console.WriteLine(CountIPAddresses.IpsBetween("20.0.0.10", "20.0.1.0"));
                     Console.WriteLine(CountIPAddresses.IpsBetween("0.0.0.0", "255.255.255.255"));
+                    Console.ReadLine();
+                    break;
+                case "17":
+                    Console.WriteLine(TwoStringsSum.sumStrings("123122","123"));
+                    Console.WriteLine(TwoStringsSum.sumStrings("68283", "60392"));
+                    Console.WriteLine(TwoStringsSum.sumStrings("1380922", "589234"));
                     Console.ReadLine();
                     break;
                 default:

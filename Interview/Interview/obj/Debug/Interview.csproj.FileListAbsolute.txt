@@ -5,3 +5,10 @@ C:\VS2017\Interview\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
 C:\VS2017\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
 C:\VS2017\Interview\Interview\obj\Debug\Interview.exe
 C:\VS2017\Interview\Interview\obj\Debug\Interview.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\bin\Debug\Interview.exe.config
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\bin\Debug\Interview.exe
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\bin\Debug\Interview.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\obj\Debug\Interview.csprojAssemblyReference.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\obj\Debug\Interview.csproj.CoreCompileInputs.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\obj\Debug\Interview.exe
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\Interview\Interview\obj\Debug\Interview.pdb
