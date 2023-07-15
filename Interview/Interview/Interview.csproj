@@ -52,6 +52,7 @@
     <Compile Include="FiveLetters.cs" />
     <Compile Include="HighestLowest.cs" />
     <Compile Include="IndiceSumaObjetivo.cs" />
+    <Compile Include="JosephusPermutation.cs" />
     <Compile Include="MiddleLetter.cs" />
     <Compile Include="NumbersOfLetters.cs" />
     <Compile Include="PerfectSquare.cs" />

@@ -214,6 +214,12 @@ namespace Interview
                     Console.WriteLine(TwoStringsSum.sumStrings("1380922", "589234"));
                     Console.ReadLine();
                     break;
+                case "18"://to see results put a break at the return and you can see the array content
+                    Console.WriteLine(JosephusPermutation.JosephusPerm(7,3));
+                    Console.WriteLine(JosephusPermutation.JosephusPerm(11, 19));
+                    Console.WriteLine(JosephusPermutation.JosephusPerm(40, 3));
+                    Console.ReadLine();
+                    break;
                 default:
                     Console.WriteLine("sorry, this is not a valid option\n ENDING PROGRAM AFTER THIS :( \n....\n...\n..\n.\n bad user bye");
                     Console.ReadLine();
