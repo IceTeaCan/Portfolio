@@ -26,7 +26,8 @@ namespace Interview
                 "15.Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.\n" +
                 "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n" +
                 "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
-                "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n");
+                "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
+                "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -218,6 +219,12 @@ namespace Interview
                     Console.WriteLine(JosephusPermutation.JosephusPerm(7,3));
                     Console.WriteLine(JosephusPermutation.JosephusPerm(11, 19));
                     Console.WriteLine(JosephusPermutation.JosephusPerm(40, 3));
+                    Console.ReadLine();
+                    break;
+                case "19":
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine();
                     Console.ReadLine();
                     break;
                 default:

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrToPhone.cs" />
+    <Compile Include="BinaryWhisper.cs" />
     <Compile Include="Compare2Arrays.cs" />
     <Compile Include="CompareString.cs" />
     <Compile Include="CountIPAddresses.cs" />
