@@ -6,10 +6,10 @@
     <BuildModes Active="Default"/>
     <Units>
       <Unit>
-        <Filename Value="AreaCircun.lpr"/>
+        <Filename Value="LetXlet.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="32" Y="9"/>
+        <CursorPos X="3" Y="4"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit>

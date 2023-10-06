@@ -222,9 +222,16 @@ namespace Interview
                     Console.ReadLine();
                     break;
                 case "19":
-                    Console.WriteLine();
-                    Console.WriteLine();
-                    Console.WriteLine();
+                    //BinaryWhisper.MultipleOf3("1010100101");//677
+                    //BinaryWhisper.MultipleOf3("11010101");//213
+                    //BinaryWhisper.MultipleOf3("1110110");//118
+                    //BinaryWhisper.MultipleOf3("101100101");//357
+                    //BinaryWhisper.MultipleOf3("111010100");//468
+                    Console.WriteLine(BinaryWhisper.MultipleOf3("1010100101"));
+                    Console.WriteLine(BinaryWhisper.MultipleOf3("11010101"));
+                    Console.WriteLine(BinaryWhisper.MultipleOf3("1110110"));
+                    Console.WriteLine(BinaryWhisper.MultipleOf3("101100101"));
+                    Console.WriteLine(BinaryWhisper.MultipleOf3("111010100"));
                     Console.ReadLine();
                     break;
                 default:
