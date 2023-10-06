@@ -27,7 +27,8 @@ namespace Interview
                 "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n" +
                 "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
                 "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
-                "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n");
+                "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
+                "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -232,6 +233,17 @@ namespace Interview
                     Console.WriteLine(BinaryWhisper.MultipleOf3("1110110"));
                     Console.WriteLine(BinaryWhisper.MultipleOf3("101100101"));
                     Console.WriteLine(BinaryWhisper.MultipleOf3("111010100"));
+                    Console.ReadLine();
+                    break;
+                case "20":
+                    Console.WriteLine(Isograms.Isogram("Dermatoglyphics"));//true
+                    Console.WriteLine(Isograms.Isogram("isogram"));//true
+                    Console.WriteLine(Isograms.Isogram("moose"));//false
+                    Console.WriteLine(Isograms.Isogram("isIsogram"));//false
+                    Console.WriteLine(Isograms.Isogram("aba"));//false
+                    Console.WriteLine(Isograms.Isogram("moOse"));//false
+                    Console.WriteLine(Isograms.Isogram("thumbscrewjapingly"));//true
+                    Console.WriteLine(Isograms.Isogram(""));//true
                     Console.ReadLine();
                     break;
                 default:
