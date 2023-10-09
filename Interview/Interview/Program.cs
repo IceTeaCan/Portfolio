@@ -28,7 +28,8 @@ namespace Interview
                 "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
                 "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
                 "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
-                "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.");
+                "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.\n" +
+                "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -244,6 +245,16 @@ namespace Interview
                     Console.WriteLine(Isograms.Isogram("moOse"));//false
                     Console.WriteLine(Isograms.Isogram("thumbscrewjapingly"));//true
                     Console.WriteLine(Isograms.Isogram(""));//true
+                    Console.ReadLine();
+                    break;
+                case "21":
+                    Console.WriteLine(RangeExtr.Extract(new[] { 1, 2 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { 1, 2, 3 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { -6, -3, -2, -1, 0, 1, 3, 4, 5, 7, 8, 9, 10, 11, 14, 15, 17, 18, 19, 20 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { -3, -2, -1, 2, 10, 15, 16, 18, 19, 20 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { 81, 82, 83, 84, 86, 87, 89, 90, 91, 92, 94 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { 17, 19, 20 }));
+                    Console.WriteLine(RangeExtr.Extract(new[] { -79, -78, -76 }));
                     Console.ReadLine();
                     break;
                 default:
