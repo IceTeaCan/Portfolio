@@ -57,6 +57,7 @@
     <Compile Include="JosephusPermutation.cs" />
     <Compile Include="MiddleLetter.cs" />
     <Compile Include="NumbersOfLetters.cs" />
+    <Compile Include="Parser.cs" />
     <Compile Include="PerfectSquare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

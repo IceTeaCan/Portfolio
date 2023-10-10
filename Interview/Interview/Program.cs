@@ -29,7 +29,8 @@ namespace Interview
                 "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
                 "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
                 "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.\n" +
-                "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n");
+                "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n" +
+                "22.String to interger. \n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -255,6 +256,15 @@ namespace Interview
                     Console.WriteLine(RangeExtr.Extract(new[] { 81, 82, 83, 84, 86, 87, 89, 90, 91, 92, 94 }));
                     Console.WriteLine(RangeExtr.Extract(new[] { 17, 19, 20 }));
                     Console.WriteLine(RangeExtr.Extract(new[] { -79, -78, -76 }));
+                    Console.ReadLine();
+                    break;
+                case "22":
+                    Console.WriteLine(Parser.ParseInt("one"));
+                    Console.WriteLine(Parser.ParseInt("twenty"));
+                    Console.WriteLine(Parser.ParseInt("fifty-five"));
+                    Console.WriteLine(Parser.ParseInt("seventy six"));
+                    Console.WriteLine(Parser.ParseInt("eleven thousand four hundred and seventy-six"));
+                    Console.WriteLine(Parser.ParseInt("ninety seven thousand four hundred and ninety nine"));
                     Console.ReadLine();
                     break;
                 default:
