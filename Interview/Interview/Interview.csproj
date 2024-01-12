@@ -43,11 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrReverse.cs" />
     <Compile Include="ArrToPhone.cs" />
     <Compile Include="BinaryWhisper.cs" />
     <Compile Include="Compare2Arrays.cs" />
     <Compile Include="CompareString.cs" />
     <Compile Include="CountIPAddresses.cs" />
+    <Compile Include="EggFloor.cs" />
     <Compile Include="FaceLikes.cs" />
     <Compile Include="FindTheOutlier.cs" />
     <Compile Include="FiveLetters.cs" />

@@ -1,0 +1,9 @@
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\bin\Debug\BussinesPry.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\bin\Debug\BussinesPry.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\bin\Debug\DataPry.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\bin\Debug\DataPry.pdb
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\obj\Debug\BussinesPry.csprojAssemblyReference.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\obj\Debug\BussinesPry.csproj.CoreCompileInputs.cache
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\obj\Debug\BussinesPry.csproj.CopyComplete
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\obj\Debug\BussinesPry.dll
+C:\Users\tican\OneDrive\Documentos\GitHub\Portfolio\SAMAproy3\BussinesPry\obj\Debug\BussinesPry.pdb

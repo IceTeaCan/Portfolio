@@ -231,3 +231,5 @@ as
   Apodo = @Apodo
   Where Telefono_Celular = @Telefono_Celular
   
+  
+  insert into Registro values('12345','jonathan','tican_22@hotmail.com','jonathan','salazar')

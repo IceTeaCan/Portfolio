@@ -11,7 +11,7 @@ namespace DataPry
     public class ConexionBase
     {
         //el string de conexion
-        private SqlConnection conexion = new SqlConnection("Data Source=LAPTOP-JNQV22NK;Initial Catalog=Agenda;Integrated Security=True");
+        private SqlConnection conexion = new SqlConnection("Data Source=LAPTOP-JNQV22NK\tican;Initial Catalog=Agenda;Integrated Security=True");
         //abre la conexion
         public SqlConnection Abrirconexion()
         {

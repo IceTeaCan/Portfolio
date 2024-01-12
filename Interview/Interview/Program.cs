@@ -30,7 +30,8 @@ namespace Interview
                 "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
                 "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.\n" +
                 "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n" +
-                "22.String to interger. \n");
+                "22.String to interger. \n" +
+                "23.Reverse an array \n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -265,6 +266,20 @@ namespace Interview
                     Console.WriteLine(Parser.ParseInt("seventy six"));
                     Console.WriteLine(Parser.ParseInt("eleven thousand four hundred and seventy-six"));
                     Console.WriteLine(Parser.ParseInt("ninety seven thousand four hundred and ninety nine"));
+                    Console.ReadLine();
+                    break;
+                case "23":
+                    Console.WriteLine(ArrReverse.Digitize(1203894587139).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(12).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(9123478102).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(59128371).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(123489).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(123128546123412).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(12413548127).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(1231).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(76584).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(469).ToString());
+                    Console.WriteLine(ArrReverse.Digitize(22).ToString());
                     Console.ReadLine();
                     break;
                 default:

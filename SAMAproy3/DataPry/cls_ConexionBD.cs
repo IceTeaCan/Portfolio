@@ -8,6 +8,6 @@ namespace DataPry
 {
     public class cls_ConexionBD
     {
-        public String conection = "Data Source=LAPTOP-JNQV22NK;Initial Catalog=Agenda;Integrated Security=True";
+        public String conection = "Data Source=LAPTOP-66RN5V7I;Initial Catalog=Agenda;Integrated Security=True";
     }
 }
