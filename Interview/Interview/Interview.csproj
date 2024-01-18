@@ -57,6 +57,7 @@
     <Compile Include="IndiceSumaObjetivo.cs" />
     <Compile Include="Isograms.cs" />
     <Compile Include="JosephusPermutation.cs" />
+    <Compile Include="LengthSubString.cs" />
     <Compile Include="MiddleLetter.cs" />
     <Compile Include="NumbersOfLetters.cs" />
     <Compile Include="Parser.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="RomanToInt.cs" />
     <Compile Include="SecondCalc.cs" />
     <Compile Include="StringManipulation.cs" />
+    <Compile Include="SumArray.cs" />
     <Compile Include="TwoStringsSum.cs" />
     <Compile Include="VerifyBraces.cs" />
   </ItemGroup>

@@ -11,27 +11,29 @@ namespace Interview
         public static void Menu()//4 8 15 16 23 42
         {
             Console.WriteLine("Enter a code to see it in action: \n 1.From a given list return the index of the numbers witch summed to each other equal an objective\n" +
-                "2.Difference function, which subtracts one list from another and returns the result\n" +
-                "3.Given an integral number, determine if it's a perfect square number\n" +
-                "4.Given a string of n letters return another string with the first letter is uppercased followed by a repetition augmented in 1 each time you print a letter RULES IN THE CLASS\n" +
-                "5.You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.\n" +
-                "6.Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.\n" +
-                "7.Given a string, replace every letter with its position in the alphabet.\n" +
-                "8.You are given a string of space separated numbers, and have to return the highest and lowest number.\n" +
-                "9.Given a roman numeral, convert it to an integer.\n" +
-                "11.Take a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS) \n" +
-                "12.Implement the function which takes an array containing the names of people that like an item. It must return the display text \n" +
-                "13.Write a function that takes a string of braces, and determines if the order of the braces is valid. It should return true if the string is valid, and false if it's invalid.\n" +
-                "14.Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed \n" +
-                "15.Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.\n" +
-                "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n" +
-                "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
-                "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
-                "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
-                "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.\n" +
-                "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n" +
-                "22.String to interger. \n" +
-                "23.Reverse an array \n");
+                                "2.Difference function, which subtracts one list from another and returns the result\n" +
+                                "3.Given an integral number, determine if it's a perfect square number\n" +
+                                "4.Given a string of n letters return another string with the first letter is uppercased followed by a repetition augmented in 1 each time you print a letter RULES IN THE CLASS\n" +
+                                "5.You are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.\n" +
+                                "6.Write a function that accepts an array of 10 integers (between 0 and 9), that returns a string of those numbers in the form of a phone number.\n" +
+                                "7.Given a string, replace every letter with its position in the alphabet.\n" +
+                                "8.You are given a string of space separated numbers, and have to return the highest and lowest number.\n" +
+                                "9.Given a roman numeral, convert it to an integer.\n" +
+                                "11.Take a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS) \n" +
+                                "12.Implement the function which takes an array containing the names of people that like an item. It must return the display text \n" +
+                                "13.Write a function that takes a string of braces, and determines if the order of the braces is valid. It should return true if the string is valid, and false if it's invalid.\n" +
+                                "14.Write a function that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed \n" +
+                                "15.Write a function that, given a string of text (possibly with punctuation and line-breaks), returns an array of the top-3 most occurring words, in descending order of the number of occurrences.\n" +
+                                "16.Implement a function that receives two IPv4 addresses, and returns the number of addresses between them (including the first one, excluding the last one).\n" +
+                                "17.Given the string representations of two integers, return the string representation of the sum of those integers. Find a clever way to do it. \n" +
+                                "18.In this kata you have to correctly return who is the \"survivor\", ie: the last element of a Josephus permutation. \n"+
+                                "19.Your task is to create a regular expression capable of evaluating binary strings (strings with only 1s and 0s) and determining whether the given string represents a number divisible by 3.\n" +
+                                "20.An isogram is a word that has no repeating letters, consecutive or non-consecutive. Implement a function that determines whether a string that contains only letters is an isogram. Assume the empty string is an isogram. Ignore letter case.\n" +
+                                "21.Range extraction. If theres a range of numbers keep the last and the first, so if this condition is true  represent the range with an - \n" +
+                                "22.String to interger. \n" +
+                                "23.Given a number conver taht number in to an array and return this same number but reversed and as an array \n" +
+                                "24.Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. \n" +
+                                "25.Given a string s, find the length of the longest substring without repeating characters.\n");
             var opc = Console.ReadLine();
             switch (opc)
             {
@@ -268,7 +270,7 @@ namespace Interview
                     Console.WriteLine(Parser.ParseInt("ninety seven thousand four hundred and ninety nine"));
                     Console.ReadLine();
                     break;
-                case "23":
+                case "23"://to see results put a break at the return and you can see the array content 
                     Console.WriteLine(ArrReverse.Digitize(1203894587139).ToString());
                     Console.WriteLine(ArrReverse.Digitize(12).ToString());
                     Console.WriteLine(ArrReverse.Digitize(9123478102).ToString());
@@ -282,6 +284,42 @@ namespace Interview
                     Console.WriteLine(ArrReverse.Digitize(22).ToString());
                     Console.ReadLine();
                     break;
+                case "24"://to see results put a break at the return and you can see the array content 
+                    int[] list_num = new int[] { 1, 2, 3, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num,25));
+
+                    int[] list_num2 = new int[] { 1, 2, 3, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num2, 11));
+
+                    int[] list_num3 = new int[] { 1, 2, 4, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num3, 12));
+
+                    int[] list_num4 = new int[] { 1, 2, 3, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num4, 13));
+
+                    int[] list_num5 = new int[] { 1, 2, 3, 5, 8, 15 };
+                    Console.WriteLine(SumArray.TwoSum(list_num5, 16));
+
+                    int[] list_num6 = new int[] { 1, 2, 3, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num6, 22));
+
+                    int[] list_num7 = new int[] { 1, 2, 3, 5, 8, 20 };
+                    Console.WriteLine(SumArray.TwoSum(list_num7, 28));
+                    Console.ReadLine();
+                    break;
+
+                case "25"://to see results put a break at the return and you can see the array content 
+                    Console.WriteLine(LengthSubString.LengthOfLongestSubstring("au"));
+                    Console.WriteLine(LengthSubString.LengthOfLongestSubstring("aab"));
+                    //Console.WriteLine(LengthSubString.LengthOfLongestSubstring("abcabcbb"));
+                    //Console.WriteLine(LengthSubString.LengthOfLongestSubstring("bbbbb"));
+                    Console.WriteLine(LengthSubString.LengthOfLongestSubstring("pwwkew"));
+                    Console.WriteLine(LengthSubString.LengthOfLongestSubstring("enrowmapofn"));
+                    Console.WriteLine(LengthSubString.LengthOfLongestSubstring("qqoerornslael"));
+                    Console.ReadLine();
+
+                    break;
+
                 default:
                     Console.WriteLine("sorry, this is not a valid option\n ENDING PROGRAM AFTER THIS :( \n....\n...\n..\n.\n bad user bye");
                     Console.ReadLine();
